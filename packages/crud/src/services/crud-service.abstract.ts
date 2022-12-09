@@ -1,6 +1,6 @@
 import { BadRequestException, NotFoundException } from '@nestjs/common';
-import { ParsedRequestParams } from '@nestjsx/crud-request';
-import { objKeys } from '@nestjsx/util';
+import { ParsedRequestParams } from '@qstyler/nestjsx-crud-request';
+import { objKeys } from '@qstyler/nestjsx-util';
 
 import { CreateManyDto, CrudRequest, CrudRequestOptions, GetManyDefaultResponse, QueryOptions } from '../interfaces';
 

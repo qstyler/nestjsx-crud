@@ -1,4 +1,4 @@
-import { CrudValidationGroups } from '@nestjsx/crud';
+import { CrudValidationGroups } from '@qstyler/nestjsx-crud';
 import { Entity, Column, OneToMany, PrimaryGeneratedColumn, DeleteDateColumn } from 'typeorm';
 import {
   IsOptional,

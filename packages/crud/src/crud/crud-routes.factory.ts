@@ -11,7 +11,7 @@ import {
   getOwnPropNames,
   isNil,
   isUndefined,
-} from '@nestjsx/util';
+} from '@qstyler/nestjsx-util';
 import * as deepmerge from 'deepmerge';
 
 import { R } from './reflection.helper';
