@@ -8,12 +8,17 @@ jobs:
   release:
     if: github.event.pull_request.merged && startsWith(github.head_ref, 'release')
     runs-on: ubuntu-latest
+    env:
+      COMPOSE_FILE: ./docker-compose.yml
 
     steps:
       - name: Checkout
         uses: actions/checkout@v2
         with:
           fetch-depth: '0'
+
+      - name: build docker db
+        run: docker-compose up -d
 
       - name: Set NPM Token
         uses: actions/setup-node@v2
@@ -27,6 +32,9 @@ jobs:
 
       - name: Build
         run: yarn build
+
+      - name: check docker
+        run: docker-compose up -d
 
       - name: Run Tests
         run: yarn test
