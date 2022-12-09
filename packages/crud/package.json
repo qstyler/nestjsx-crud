@@ -1,5 +1,5 @@
 {
-  "name": "@nestjsx/crud",
+  "name": "@qstyler/nestjsx-crud",
   "description": "NestJs CRUD for RESTful APIs",
   "version": "5.0.0",
   "license": "MIT",
@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nestjsx/crud.git"
+    "url": "https://github.com/@qstyler/nestjsx-crud.git"
   },
   "bugs": {
-    "url": "https://github.com/nestjsx/crud/issues"
+    "url": "https://github.com/@qstyler/nestjsx-crud/issues"
   },
   "keywords": [
     "typescript",
@@ -39,8 +39,8 @@
     "build": "npx tsc -b"
   },
   "dependencies": {
-    "@nestjsx/crud-request": "^5.0.0",
-    "@nestjsx/util": "^5.0.0",
+    "@qstyler/nestjsx-crud-request": "^5.0.0",
+    "@qstyler/nestjsx-util": "^5.0.0",
     "deepmerge": "^3.2.0",
     "pluralize": "^8.0.0"
   },

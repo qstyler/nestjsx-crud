@@ -1,5 +1,5 @@
 {
-  "name": "@nestjsx/util",
+  "name": "@qstyler/nestjsx-util",
   "description": "NestJs CRUD for RESTful APIs - util",
   "version": "5.0.0",
   "license": "MIT",
@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nestjsx/crud.git"
+    "url": "https://github.com/@qstyler/nestjsx-crud.git"
   },
   "bugs": {
-    "url": "https://github.com/nestjsx/crud/issues"
+    "url": "https://github.com/@qstyler/nestjsx-crud/issues"
   },
   "keywords": [
     "typescript",
