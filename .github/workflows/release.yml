@@ -37,7 +37,7 @@ jobs:
         run: docker-compose up -d
 
       - name: Run Tests
-        run: yarn test
+        run: yarn test:coverage
 
       - name: Get Latest Tag
         id: get_latest_tag
