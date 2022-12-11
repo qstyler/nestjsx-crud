@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/@qstyler/nestjsx-crud.git"
+    "url": "https://github.com/qstyler/nestjsx-crud.git"
   },
   "bugs": {
-    "url": "https://github.com/@qstyler/nestjsx-crud/issues"
+    "url": "https://github.com/qstyler/nestjsx-crud/issues"
   },
   "keywords": [
     "typescript",
