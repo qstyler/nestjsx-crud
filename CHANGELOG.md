@@ -452,7 +452,7 @@ more details. https://github.com/typeorm/typeorm/releases/tag/0.3.0
 
 - **crud** fixed `BulkDto` swagger description ([#159])
 - **crud** fixed `CrudRequestInterceptor` request parsing
-- **requests** added `@qstyler/nestjsx-/util` as a dependency ([#184])
+- **requests** added `@qstyler/nestjsx-util` as a dependency ([#184])
 - **requests** fixed condition operators mapping ([#148])
 - **requests** fixed ISO date string validation ([#161])
 - **typeorm** fixed filtering and sorting by nested fields ([#105])
@@ -496,9 +496,9 @@ more details. https://github.com/typeorm/typeorm/releases/tag/0.3.0
 
 - **repo:** refactor to monorepository
 - **docs:** new [documentation](https://github.com/nestjsx/crud/wiki)
-- **packages:** totally refactor `@qstyler/nestjsx-/crud` to be service (ORM) agnostic
-- **packages:** add `@qstyler/nestjsx-/crud-typeorm` ([docs](https://github.com/nestjsx/crud/wiki/ServiceTypeorm))
-- **packages:** add `@qstyler/nestjsx-/crud-request` ([docs](https://github.com/nestjsx/crud/wiki/Requests#description), [#53])
+- **packages:** totally refactor `@qstyler/nestjsx-crud` to be service (ORM) agnostic
+- **packages:** add `@qstyler/nestjsx-crud-typeorm` ([docs](https://github.com/nestjsx/crud/wiki/ServiceTypeorm))
+- **packages:** add `@qstyler/nestjsx-crud-request` ([docs](https://github.com/nestjsx/crud/wiki/Requests#description), [#53])
 - **crud:** add global options ([docs](https://github.com/nestjsx/crud/wiki/Controllers#global-options), [#64])
 - **crud:** add eager relations option ([#54], [#67])
 
